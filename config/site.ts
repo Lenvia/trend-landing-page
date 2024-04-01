@@ -4,21 +4,22 @@ import { MdEmail } from "react-icons/md";
 import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
 
 const baseSiteConfig = {
-  name: "Clean Next.js Starter",
+  name: "Magic Sora Window",
   description:
-    "Clean Next.js Starter is a meticulously designed Next.js starter template aimed at providing developers with a clean, efficient, and scalable foundation for quickly launching.",
-  url: "https://starter.weijunext.com",
-  ogImage: "https://starter.weijunext.com/og.png",
+      "magic magic magic",
+  url: "https://sorawindow.com",
+  // og是社交媒体上可展示的图片，如果没有专门设计og，也建议截图一张页面
+  ogImage: "https://sorawindow.com/og.png",
   metadataBase: '/',
-  keywords: ["next.js starter", "next.js template", "awesome starter", "study next.js"],
+  keywords: [],
   authors: [
     {
-      name: "weijunext",
-      url: "https://weijunext.com",
-      twitter: 'https://twitter.com/weijunext',
+      name: "Lenvia",
+      url: "https://jike.city/lenvia",
+      // twitter: 'https://twitter.com/weijunext',
     }
   ],
-  creator: '@weijunext',
+  creator: '@Lenvia',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -30,26 +31,25 @@ const baseSiteConfig = {
     apple: "/apple-touch-icon.png",
   },
   headerLinks: [
-    { name: 'repo', href: "https://github.com/weijunext/clean-nextjs-starter", icon: BsGithub },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
+    { name: 'repo', href: "https://github.com/Lenvia/trend-landing-page", icon: BsGithub },
+    // { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
+    // { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
   ],
   footerLinks: [
-    { name: 'email', href: "mailto:weijunext@gmail.com", icon: MdEmail },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'github', href: "https://github.com/weijunext/", icon: BsGithub },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee },
-    { name: 'juejin', href: "https://juejin.cn/user/26044008768029", icon: SiJuejin },
-    { name: 'weChat', href: "https://weijunext.com/make-a-friend", icon: BsWechat }
+    { name: 'email', href: "mailto:yrp1199@gmail.com", icon: MdEmail },
+    // { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
+    { name: 'github', href: "https://github.com/lenvia/", icon: BsGithub },
+    // { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee },
+    // { name: 'weChat', href: "https://weijunext.com/make-a-friend", icon: BsWechat }
   ],
   footerProducts: [
     { url: 'https://weijunext.com/', name: 'J实验室' },
-    { url: 'https://smartexcel.cc/', name: 'Smart Excel' },
-    { url: 'https://landingpage.weijunext.com/', name: 'Landing Page Boilerplate' },
-    { url: 'https://nextjs.weijunext.com/', name: 'Next.js Practice' },
-    { url: 'https://starter.weijunext.com/', name: 'Next.js Starter' },
-    { url: 'https://githubbio.com', name: 'Github Bio Generator' },
-    { url: 'https://github.com/weijunext/indie-hacker-tools', name: 'Indie Hacker Tools' },
+    // { url: 'https://smartexcel.cc/', name: 'Smart Excel' },
+    // { url: 'https://landingpage.weijunext.com/', name: 'Landing Page Boilerplate' },
+    // { url: 'https://nextjs.weijunext.com/', name: 'Next.js Practice' },
+    // { url: 'https://starter.weijunext.com/', name: 'Next.js Starter' },
+    // { url: 'https://githubbio.com', name: 'Github Bio Generator' },
+    // { url: 'https://github.com/weijunext/indie-hacker-tools', name: 'Indie Hacker Tools' },
   ]
 }
 
